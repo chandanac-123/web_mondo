@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import bgimage from '@public/new.jpg'
+// import bgvideo from '@public/icons/bgvideo.mp4'
 import { WorksData } from '@/constants/works';
 import Contact from '@/components/contact';
 import Services from '@/components/services';
@@ -13,7 +14,7 @@ import Image from 'next/image';
 
 export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [visibleCount, setVisibleCount] = useState(12); // Show first 12 items
+  const [visibleCount, setVisibleCount] = useState(10); // Show first 10 items
 
   const handleViewMore = () => {
     setVisibleCount(WorksData.length); // Show all items
@@ -49,8 +50,12 @@ export default function Home() {
 
       <div
         className="relative bg-cover bg-center min-h-screen"
-        style={{ backgroundImage: `url(${bgimage.src})` }}
+        // style={{ backgroundClip: `url(${bgvideo.mp4})` }}
       >
+        {/* <video  autoplay width="100%">
+          <source src='@public/icons/bgvideo.mp4' type="video/mp4"/>
+        </video> */}
+
         <Header isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
 
         <HomeSection id="home" />

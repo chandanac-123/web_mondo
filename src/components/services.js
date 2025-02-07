@@ -1,12 +1,12 @@
 
 export default function Services({ id }) {
     return (
-        <section id={id} className=" p-12 bg-white">
-            <h1 className="text-2xl font-light text-black">Corindians is a creative company that crafts innovative ideas for the future.Our mission is to craft brands globally with diversified creativity. We are not only developing your great idea as a visually appealing one but also effectively handle the primary goals of your business.Our team has expertise in designing audience -focused experiences for both digital and physical products.</h1>
+        <section id={id} className="sm:p-12 p-6 bg-white">
+            <h1 className="sm:text-2xl text-base font-light text-black ">Corindians is a creative company that crafts innovative ideas for the future.Our mission is to craft brands globally with diversified creativity. We are not only developing your great idea as a visually appealing one but also effectively handle the primary goals of your business.Our team has expertise in designing audience -focused experiences for both digital and physical products.</h1>
 
-            <div className='grid lg:grid-cols-3 sm:grid-cols-2 gap-8 pt-12'>
+            <div className='grid lg:grid-cols-3 sm:grid-cols-2 gap-8 pt-12 '>
                 <span className='flex-col text-gray-600'>
-                    <h1 className='text-black font-semibold pb-2'>Branding & Designing</h1>
+                    <h1 className='text-black font-semibold pb-2 '>Branding & Designing</h1>
                     Corindians revolutionizes crafting brand identity with thoughtful strategies, timeless logos, enticing designs, and versatile visual language.
                 </span>
                 <span className='  flex-col text-gray-600'>

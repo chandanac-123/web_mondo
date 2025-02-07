@@ -16,7 +16,7 @@ export default function Header({isMenuOpen,setIsMenuOpen}) {
                     className="md:hidden block text-white"
                     onClick={() => setIsMenuOpen(true)}
                 >
-                    <Image src={humberger} alt='' />
+                    <Image  src={humberger} alt='' />
                 </button>
             </div>
 
