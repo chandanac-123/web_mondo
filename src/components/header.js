@@ -4,7 +4,7 @@ import Image from 'next/image'
 export default function Header({isMenuOpen,setIsMenuOpen}) {
     return (
         <>
-            <div className="flex justify-between items-center py-4 px-12  fixed top-0 left-0 w-full">
+            <div className="flex justify-between items-center py-4 px-12  fixed top-0 left-0 w-full z-10">
                 <header className="text-white font-bold">Web Mondo</header>
                 <nav className="hidden md:flex gap-6">
                     <a href="#home" className="text-white hover:text-blue-300">Home</a>
